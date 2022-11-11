@@ -1,0 +1,36 @@
+body{
+    box-sizing: content-box;
+}
+
+.container{
+    display: flex;
+}
+
+.container.one{
+    flex-direction: column;
+    align-items: center;
+    background-image: url(images/Banner.jpg);
+    background-size: cover;
+    height: 480px;
+    width: 100%;
+    text-align: center;
+    flex: 1 1 auto;
+}
+
+#hero a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: darkcyan;    
+    font-size: 24px;
+}
+
+.container.two{
+    flex-direction: column;
+    align-items: center;
+}
+
+.product{
+    margin: 20px;
+}
