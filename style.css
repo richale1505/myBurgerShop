@@ -1,36 +1,84 @@
 body{
     box-sizing: content-box;
+    background-color: #2f97cf;
 }
 
-.container{
+header{
     display: flex;
-}
-
-.container.one{
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
     background-image: url(images/Banner.jpg);
     background-size: cover;
-    height: 480px;
+    background-position: center;
+    min-height: 320px;
+    height: auto;
     width: 100%;
+    padding-bottom: 40px;
     text-align: center;
+    margin-bottom: 8px;
     flex: 1 1 auto;
 }
 
-#hero a{
+.hero p{
+    margin: 100px 0px;
+}
+
+header a{
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 20px;
     color: white;
-    background-color: darkcyan;    
+    background-color: #1378ae;
     font-size: 24px;
 }
 
-.container.two{
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 8px;
+    flex: 1;
+}
+
+section{
+    background-color: #1378ae;
+}
+
+section#leftstuff{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+
+section#main{
+    display: flex;
     flex-direction: column;
     align-items: center;
+    width: 50%;
+    
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+    background-color: #86c2e3;
+    width: 25%;
+}
+
+footer{
+    display: flex;
+    background-color: #86c2e3;
+    justify-content: center;
+    margin-top: 8px;
 }
 
 .product{
-    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 10px 0px;
+}
+
+.button{
+    align-self: flex-end;
 }
